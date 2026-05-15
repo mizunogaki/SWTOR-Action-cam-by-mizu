@@ -59,8 +59,24 @@ My version keeps all original features and adds several quality‑of‑life impr
    - Keybinds for targeting and attacks.
    - Crosshair appearance (font, color, offsets).
    - Movement keys for auto‑hide logic.
-4. Run the `.ahk` script as Admin and then launch SWTOR.  
-5. In‑game, press **Alt** to activate action camera mode.
+4. Optional files ""SWTOR Action Keybinds" and "SWTOR Action Layout" is higly recomended.
+5. Run the `.ahk` script as Admin and then launch SWTOR.  
+6. In‑game, press **Alt** to activate action camera mode.
+
+## Recommended optional files
+This edited script is designed to work with the advanced version of Amor’s setup, so I highly recommend installing the following optional files from the original mod page:
+
+- "SWTOR Action Keybinds"
+
+- "SWTOR Action Layout"
+
+These optional files:
+
+- Apply the keybinds and UI layout that the script expects (advanced action camera profile).
+- Match the attack, targeting, and interaction keys used in the AutoHotkey script.
+
+Ensure that left/right mouse abilities, targeting, and the new side‑button/scroll‑click interaction all line up with the in‑game controls.
+If you use different keybinds or layouts, you can still adapt the script, but with "SWTOR Action Keybinds" and "SWTOR Action Layout" installed, everything works out of the box with the advanced version.
 
 ## Notes
 
