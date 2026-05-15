@@ -5,6 +5,8 @@ Original mod and full description: [Amor's Extensive SWTOR Action cam overhaul](
 
 My version keeps all original features and adds several quality‑of‑life improvements for crosshair and interaction.
 
+With this script and Amor’s action cam setup, SWTOR’s gameplay starts to feel somewhat similar to playing Guild Wars 2 with Action Camera enabled: you aim with the crosshair, move and fight in mouselook, and interact directly with what’s under the reticle instead of constantly tab‑targeting.
+
 ## Key Features
 
 - **Action camera toggle (Alt)**  
