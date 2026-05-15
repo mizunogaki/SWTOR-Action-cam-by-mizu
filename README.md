@@ -1,6 +1,6 @@
-# SWTOR Action Camera – Enhanced Version (AutoHotkey v2)
+# Amor’s SWTOR Action Camera – Enhanced AHK Version (AutoHotkey v2)
 
-This is a customized version of **"Amor's Extensive SWTOR Action cam overhaul"** for Star Wars: The Old Republic.  
+Based on “Amor's Extensive SWTOR Action cam overhaul”, this is an enhanced AutoHotkey script variant with custom crosshair, movement hide, and side‑button interact + cursor mode. 
 Original mod and full description: [Amor's Extensive SWTOR Action cam overhaul](https://www.nexusmods.com/starwarstheoldrepublic/mods/32) [web:125].
 
 My version keeps all original features and adds several quality‑of‑life improvements for crosshair and interaction.
