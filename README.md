@@ -84,7 +84,7 @@ If you use different keybinds or layouts, you can still adapt the script, but wi
 - All enhancements are purely client‑side QoL and do not modify game files.  
 - If you want different mouse buttons (e.g. use `XButton1`or `MButton` instead of `XButton2`), you can easily edit the hotkey section in the script.
 
-Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects.
+Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects. All of the features mentioned above are already integrated into my script.
 
 ## Crosshair design
 
@@ -102,11 +102,9 @@ LAYER1_BOLD := 0              ; 1 = Bold text, 0 = Normal text
 ```
 
 This draws a clean minimal crosshair using the ⊹ character, without a black outline layer.
-If you want it to pop more, you can change the color, for example:
+Green works very well in SWTOR – it stays visible on most backgrounds without being too distracting. If you want it to pop more, you can change the color.
 
-```
-LAYER1_COLOR := "2DD117"  ; bright green
-```
-Green works very well in SWTOR – it stays visible on most backgrounds without being too distracting.
+The crosshair is built from up to 5 overlay layers (LAYER1–LAYER5).
+You can enable multiple layers at once and combine different characters, sizes, and colors to build your own custom reticle.
 
-All of the features mentioned above are already integrated into my script.
+
