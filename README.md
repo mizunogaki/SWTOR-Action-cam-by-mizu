@@ -85,3 +85,28 @@ If you use different keybinds or layouts, you can still adapt the script, but wi
 - If you want different mouse buttons (e.g. use `XButton1`or `MButton` instead of `XButton2`), you can easily edit the hotkey section in the script.
 
 Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects.
+
+## Crosshair design
+
+You can also tweak the crosshair design.
+Here is the setup I’m currently using:
+
+
+```LAYER1_ENABLED := 1           ; Main white dot
+LAYER1_CHAR := "⊹"            ; Character to display
+LAYER1_SIZE := 20             ; Font size
+LAYER1_COLOR := "2DD117"      ; Hex color (no #)
+LAYER1_X := 0                 ; Horizontal position offset
+LAYER1_Y := 0                 ; Vertical position offset
+LAYER1_BOLD := 0              ; 1 = Bold text, 0 = Normal text
+```
+
+This draws a clean minimal crosshair using the ⊹ character, without a black outline layer.
+If you want it to pop more, you can change the color, for example:
+
+```
+LAYER1_COLOR := "2DD117"  ; bright green
+```
+Green works very well in SWTOR – it stays visible on most backgrounds without being too distracting.
+
+All of the features mentioned above are already integrated into my script.
