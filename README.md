@@ -16,10 +16,10 @@ My version keeps all original features and adds several quality‑of‑life impr
   - When entering action mode, the script moves the hardware mouse cursor exactly under the crosshair.  
   - Any right‑click (including simulated clicks) hits where the crosshair is, not where the cursor used to be.
 
-- **Auto‑hide crosshair while moving (WASD)**  
-  - A small timer checks movement keys (e.g. `W`, `A`, `S`, `D`).  
-  - While moving, the crosshair is temporarily hidden to avoid clutter.  
-  - When you stop, the crosshair reappears.
+- **Auto‑hide crosshair while moving (W)**  
+  - A small timer checks movement key (`W`).  
+  - While moving forward, the crosshair is temporarily hidden to avoid clutter.  
+  - When you stop pressing 'W', the crosshair reappears.
 
 - **Side mouse button interact + auto exit to cursor mode (XButton2)**  
   - Aim the crosshair at an NPC, door, console, or any interactable.  
@@ -59,13 +59,13 @@ My version keeps all original features and adds several quality‑of‑life impr
    - Keybinds for targeting and attacks.
    - Crosshair appearance (font, color, offsets).
    - Movement keys for auto‑hide logic.
-4. Run the `.ahk` script and then launch SWTOR.  
+4. Run the `.ahk` script as Admin and then launch SWTOR.  
 5. In‑game, press **Alt** to activate action camera mode.
 
 ## Notes
 
 - The script only works while `swtor.exe` is the active window.  
 - All enhancements are purely client‑side QoL and do not modify game files.  
-- If you want different mouse buttons (e.g. use `XButton1` instead of `XButton2`), you can easily edit the hotkey section in the script.
+- If you want different mouse buttons (e.g. use `XButton1`or `MButton` instead of `XButton2`), you can easily edit the hotkey section in the script.
 
 Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects.
