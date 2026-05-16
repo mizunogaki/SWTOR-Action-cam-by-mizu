@@ -1,112 +1,113 @@
 # Amor’s SWTOR Action Camera – Enhanced AHK Version (AutoHotkey v2)
 
-Based on “Amor's Extensive SWTOR Action cam overhaul”, this is an enhanced AutoHotkey script variant with custom crosshair, movement hide, and side‑button interact + cursor mode. 
+Based on **“Amor's Extensive SWTOR Action cam overhaul”**, this is an enhanced AutoHotkey script variant with a custom crosshair, movement hide, and an improved interaction flow.  
 Original mod and full description: [Amor's Extensive SWTOR Action cam overhaul](https://www.nexusmods.com/starwarstheoldrepublic/mods/32) [web:125].
 
-My version keeps all original features and adds several quality‑of‑life improvements for crosshair and interaction.
+My version keeps all original features and adds several quality‑of‑life improvements for both PvE and PvP.  
+With this script and Amor’s action cam setup, SWTOR’s gameplay starts to feel somewhat similar to playing **Guild Wars 2 with Action Camera enabled**: you aim with the crosshair, move and fight in mouselook, and interact directly with what’s under the reticle instead of constantly tab‑targeting [web:154].
 
-With this script and Amor’s action cam setup, SWTOR’s gameplay starts to feel somewhat similar to playing Guild Wars 2 with Action Camera enabled: you aim with the crosshair, move and fight in mouselook, and interact directly with what’s under the reticle instead of constantly tab‑targeting.
+---
 
 ## Key Features
 
 - **Action camera toggle (Alt)**  
   - Toggles a mouselook / action‑camera mode.  
   - Holds the right mouse button for you.  
-  - Shows a configurable crosshair overlay.
+  - Shows a configurable crosshair overlay and centers the mouse cursor under it.
 
 - **Crosshair aligned to mouse cursor**  
-  - When entering action mode, the script moves the hardware mouse cursor exactly under the crosshair.  
+  - When entering action mode, the script moves the hardware cursor exactly under the crosshair.  
   - Any right‑click (including simulated clicks) hits where the crosshair is, not where the cursor used to be.
 
-- **Auto‑hide crosshair while moving (W)**  
-  - A small timer checks movement key (`W`).  
+- **Auto‑hide crosshair while moving**  
+  - A small timer checks your movement keys (e.g. `W`).  
   - While moving forward, the crosshair is temporarily hidden to avoid clutter.  
-  - When you stop pressing 'W', the crosshair reappears.
+  - When you stop, the crosshair reappears.
 
-- **Side mouse button interact + auto exit to cursor mode (XButton2)**  
+- **Middle mouse interact + auto exit to cursor mode (MButton)**  
   - Aim the crosshair at an NPC, door, console, or any interactable.  
-  - Press **XButton2**:
-    - The script temporarily releases RMB,
-    - performs a normal right‑click at the crosshair position,
+  - Press **MButton** (mouse wheel click):  
+    - The script temporarily releases RMB,  
+    - performs a normal right‑click at the crosshair position,  
     - then automatically disables action mode:
-      - releases RMB,
-      - hides the crosshair,
-      - returns you to normal mouse cursor mode.
-  - Result: one press on XButton2 = start dialogue / interact AND immediately be in UI/cursor mode.
+      - releases RMB,  
+      - hides the crosshair,  
+      - returns you to normal mouse cursor mode.  
+  - Result: one press on MButton = start dialogue / interact AND immediately be in UI/cursor mode.
+
+- **PvE‑ and PvP‑friendly mouse buttons**  
+  - In action mode, **Left/Right Mouse** simply fire your primary/secondary abilities on the **current target**.  
+  - The script does not auto‑retarget in PvP; targeting (Tab, Shift+Tab, XButton1/XButton2, etc.) is handled by SWTOR keybinds.  
+  - This makes the script safe and predictable for both PvE and PvP play.
 
 - **Safe Escape handling**  
   - Pressing `Esc`:
-    - cleanly disables action mode (if active),
-    - then sends `Esc` to the game.  
-  - Implemented with `$Esc` to avoid the classic `71 hotkeys have been received` warning from AutoHotkey.
+    - cleanly disables action mode (if active),  
+    - then sends `Esc` to the game (close UI, back out of menus, etc.).  
+  - Implemented with `$Esc` to avoid the classic `71 hotkeys have been received` warning from AutoHotkey [web:84][web:98].
+
+---
 
 ## Controls (default)
 
 - **Alt** – Toggle action camera on/off.  
-- **Left Mouse Button** – Target + primary attack (while in action mode).  
-- **Right Mouse Button** – Target + secondary attack (while in action mode).  
-- **XButton2 (side mouse button)** – Interact with whatever is under the crosshair and switch to normal cursor mode.  
+- **Left Mouse Button** – Primary attack (while in action mode).  
+- **Right Mouse Button** – Secondary attack (while in action mode).  
+- **MButton (middle mouse button)** – Interact with whatever is under the crosshair and switch to normal cursor mode.  
 - **Esc** – Exit action mode (if active) and send Esc to SWTOR (close UI, back out of menus, etc.).
+
+You can freely configure additional targeting in SWTOR itself, for example:
+
+- `Tab` – Target Center Screen Enemy.  
+- `Shift+Tab` – Target Previous Enemy.  
+- `Ctrl+Tab` – Target Nearest Friendly.  
+- `XButton1 / XButton2` – Next/Previous enemy target (set directly in SWTOR).
+
+The script does not override these — it only manages camera, crosshair, and interaction.
+
+---
 
 ## Requirements
 
-- **AutoHotkey v2** (this script is written for v2 syntax).  
-- SWTOR running as `swtor.exe` (default executable; can be changed in config).
+- **AutoHotkey v2** (this script is written for v2 syntax) [web:90].  
+- SWTOR running as `swtor.exe` (default executable; can be changed in the config).
+
+---
 
 ## Installation
 
 1. Install **AutoHotkey v2** from the official website.  
 2. Download the original script from the Nexus page and replace it with this modified version (or drop this file next to it).  
 3. Adjust the configuration section at the top of the script:
-   - Keybinds for targeting and attacks.
-   - Crosshair appearance (font, color, offsets).
-   - Movement keys for auto‑hide logic.
-4. Optional files ""SWTOR Action Keybinds" and "SWTOR Action Layout" is higly recomended.
-5. Run the `.ahk` script as Admin and then launch SWTOR.  
+   - Keybinds for primary/secondary attacks.  
+   - Crosshair appearance (font, color, offsets).  
+   - Movement keys for auto‑hide logic.  
+4. Optional: download and apply the **“SWTOR Action Keybinds”** and **“SWTOR Action Layout”** optional files from Amor’s mod page.  
+5. Run the `.ahk` script (ideally as Admin) and then launch SWTOR.  
 6. In‑game, press **Alt** to activate action camera mode.
 
+---
+
 ## Recommended optional files
-This edited script is designed to work with the advanced version of Amor’s setup, so I highly recommend installing the following optional files from the original mod page:
 
-- "SWTOR Action Keybinds"
+This edited script is designed to work well with the advanced version of Amor’s setup, so I highly recommend installing the following optional files from the original mod page [web:125]:
 
-- "SWTOR Action Layout"
+- **"SWTOR Action Keybinds"**  
+- **"SWTOR Action Layout"**
 
 These optional files:
 
-- Apply the keybinds and UI layout that the script expects (advanced action camera profile).
-- Match the attack, targeting, and interaction keys used in the AutoHotkey script.
+- Apply the keybinds and UI layout that the script expects (advanced action camera profile).  
+- Match the attack, targeting, and interaction keys used by the AutoHotkey script.
 
-Ensure that left/right mouse abilities, targeting, and the new side‑button/scroll‑click interaction all line up with the in‑game controls.
-If you use different keybinds or layouts, you can still adapt the script, but with "SWTOR Action Keybinds" and "SWTOR Action Layout" installed, everything works out of the box with the advanced version.
+If you use different keybinds or layouts, you can still adapt the script, but with **"SWTOR Action Keybinds"** and **"SWTOR Action Layout"** installed, everything works almost out of the box with this enhanced version.
+
+---
 
 ## Notes
 
 - The script only works while `swtor.exe` is the active window.  
 - All enhancements are purely client‑side QoL and do not modify game files.  
-- If you want different mouse buttons (e.g. use `XButton1`or `MButton` instead of `XButton2`), you can easily edit the hotkey section in the script.
+- If you want different mouse buttons (e.g. use `XButton1` or `XButton2` instead of `MButton` for interaction), you can easily edit the hotkey section in the script.
 
-Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects. All of the features mentioned above are already integrated into my script.
-
-## Crosshair design
-
-You can also tweak the crosshair design.
-Here is the setup I’m currently using:
-
-
-```LAYER1_ENABLED := 1           ; Main white dot
-LAYER1_CHAR := "⊹"            ; Character to display
-LAYER1_SIZE := 20             ; Font size
-LAYER1_COLOR := "2DD117"      ; Hex color (no #)
-LAYER1_X := 0                 ; Horizontal position offset
-LAYER1_Y := 0                 ; Vertical position offset
-LAYER1_BOLD := 0              ; 1 = Bold text, 0 = Normal text
-```
-
-This draws a clean minimal crosshair using the ⊹ character, without a black outline layer.
-Green works very well in SWTOR – it stays visible on most backgrounds without being too distracting. If you want it to pop more, you can change the color.
-
-The crosshair is built from up to 5 overlay layers (LAYER1–LAYER5).
-You can enable multiple layers at once and combine different characters, sizes, and colors to build your own custom reticle.
-
-
+Enjoy smoother action camera gameplay and one‑click interactions for NPCs and objects — with a setup that is comfortable for both PvE and PvP.
