@@ -1,9 +1,7 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; Use absolute screen coordinates for all mouse operations
-; (0,0 is the top-left corner of the screen, not the game window).
-CoordMode("Mouse", "Screen")  ; 
+CoordMode("Mouse", "Screen")  ; Координаты мыши считаем от экрана, а не окна
 
 ; ============ CONFIGURATION ============
 ; Edit the variables below to customize the script
@@ -39,11 +37,17 @@ DEACTIVATION_SOUND := ""      ; Example: "C:\Windows\Media\Windows Balloon.wav"
 ; Each layer has: Enabled, Character, Size, Color, X-Offset, Y-Offset, Bold
 ; Note: Larger sizes may need negative Y offsets to appear centered
 
-; Extra movement keys for auto-hide logic (on top of WASD if you want)
-MOVEMENT_KEYS := ["w"]  ; ; Add more keys here if needed (e.g. "a","s","d")
+; Дополнительные клавиши движения (помимо WASD)
+MOVEMENT_KEYS := ["w"]  ; Добавьте нужные, если используете
 
-; Not used in this version, but kept for clarity – side mouse button alias
-INTERACT_KEY := "MButton4"    ; Example: MouseButton4 (first side button)
+INTERACT_KEY := "MButton4"  ; MouseButton4 (первая боковая)
+
+; ======== PVP TARGETING PROFILE ========
+; 1 = enable PvP-style mouse buttons (no auto-retarget on click),
+; 0 = behave like original PvE script (if you ever want that back).
+PVP_MODE := 1
+
+; ========== Crosshair settings ========
 
 LAYER1_ENABLED := 1           ; Main white dot
 LAYER1_CHAR := "⊹"            ; Character to display
@@ -53,18 +57,18 @@ LAYER1_X := 0                 ; Horizontal position offset
 LAYER1_Y := 0                 ; Vertical position offset
 LAYER1_BOLD := 0              ; 1 = Bold text, 0 = Normal text
 
-LAYER2_ENABLED := 0           ; Black border dot  
-LAYER2_CHAR := "◦"            ; Character to display
-LAYER2_SIZE := 30             ; Font size
-LAYER2_COLOR := "030303"      ; Hex color (no #)
-LAYER2_X := 0                 ; Horizontal position offset
-LAYER2_Y := -10               ; Vertical position offset (negative to center larger font)
-LAYER2_BOLD := 1              ; 1 = Bold text, 0 = Normal text
+LAYER2_ENABLED := 0           ; Dark outline
+LAYER2_CHAR    := "◦"
+LAYER2_SIZE    := 30
+LAYER2_COLOR   := "ffffff"  ; almost black
+LAYER2_X       := 0
+LAYER2_Y       := -5       ; slight negative to visually center bigger symbol
+LAYER2_BOLD    := 1
 
 LAYER3_ENABLED := 0           ; Example: Red crosshair
-LAYER3_CHAR := "+"            ; Character to display
+LAYER3_CHAR := "⊹"            ; Character to display
 LAYER3_SIZE := 20             ; Font size
-LAYER3_COLOR := "FF0000"      ; Hex color (no #)
+LAYER3_COLOR := "2DD117"      ; Hex color (no #)
 LAYER3_X := 0                 ; Horizontal position offset
 LAYER3_Y := -5                ; Vertical position offset (negative to center)
 LAYER3_BOLD := 1              ; 1 = Bold text, 0 = Normal text
@@ -141,7 +145,7 @@ UpdateReticleVisibility() {
     
     isMoving := false
     for key in MOVEMENT_KEYS {
-        if GetKeyState(key, "P") {  ; "P" — physical key state (ignores remaps)
+        if GetKeyState(key, "P") {  ; "P" — физическое нажатие (игнорирует remap)
             isMoving := true
             break
         }
@@ -160,12 +164,12 @@ ShowReticle() {
         CreateReticle()
     }
     UpdateReticleVisibility()
-    SetTimer(UpdateReticleVisibility, 50)  ; Check movement state 20 times per second – smooth and lightweight
+    SetTimer(UpdateReticleVisibility, 50)  ; Проверка 20 раз/сек — плавно и не нагружает CPU
 }
 
 HideReticle() {
     global reticleGui
-    SetTimer(UpdateReticleVisibility, 0)  ; Stop the visibility timer
+    SetTimer(UpdateReticleVisibility, 0)  ; Останавливаем таймер
     if (reticleGui) {
         reticleGui.Hide()
     }
@@ -220,15 +224,15 @@ CheckSWTOR() {
         screenCenterX := A_ScreenWidth  // 2
         screenCenterY := A_ScreenHeight // 2
 
-        ; Same positioning as in CreateReticle() (40x40 GUI)
+        ; Те же расчёты, что и для GUI ретикула (40x40)
         reticleX := screenCenterX - 20 + RETICLE_X_OFFSET
         reticleY := screenCenterY - 90 + RETICLE_Y_OFFSET
 
-        ; Center of the reticle rectangle
+        ; Центр прямоугольника ретикула
         mouseX := reticleX + 20
         mouseY := reticleY + 20
 
-        MouseMove(mouseX, mouseY, 0)  ; Move real mouse cursor under the crosshair
+        MouseMove(mouseX, mouseY, 0)  ; мгновенно
 
         Send "{RButton down}"
         ShowReticle()
@@ -240,20 +244,25 @@ CheckSWTOR() {
     }
 }
 
-#HotIf actionMode && WinActive("ahk_exe swtor.exe")
+#HotIf actionMode && WinActive("ahk_exe swtor.exe") && PVP_MODE
+
+; ======== PVP: COMBAT MOUSE BUTTONS ONLY ========
+
+; In PvP we do NOT auto-retarget on click.
+; LMB/RMB simply fire abilities on your current target.
+; Targeting (Tab, Ctrl+Tab, Shift+Tab, mouse buttons) is handled directly by SWTOR.
 
 LButton:: {
-    Send TARGET_KEY
-    Send PRIMARY_ATTACK
+    Send PRIMARY_ATTACK   ; left mouse = main attack
 }
 
 RButton:: {
-    Send TARGET_KEY
-    Send SECONDARY_ATTACK
+    Send SECONDARY_ATTACK ; right mouse = secondary attack
 }
 
 ; Interact (side mouse button) and then stay in normal mouse mode
-XButton2:: {
+; Aim crosshair at NPC/object, press MButton to interact and exit action mode.
+MButton:: {
     ; 1) Temporarily release held right mouse button
     Send "{RButton up}"
     Sleep 30
@@ -261,14 +270,14 @@ XButton2:: {
     ; 2) Perform a normal right-click at the crosshair position
     Click "Right"
 
-    ; 3) Exit action mode (turn off crosshair, release RButton, sound)
+    ; 3) Exit action mode (turn off crosshair, release RMB, play sound)
     Sleep 30
     DisableActionMode()
 
     return
 }
 
-#HotIf  ; reset context
+#HotIf  ; reset context for the other hotkeys
 
 ; Esc: always behaves like "exit action mode if active, then send Esc to the game"
 $Esc:: {
