@@ -1,7 +1,9 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-CoordMode("Mouse", "Screen")  ; Координаты мыши считаем от экрана, а не окна
+; Use absolute screen coordinates for all mouse operations
+; (0,0 is the top-left corner of the screen, not the game window).
+CoordMode("Mouse", "Screen")
 
 ; ============ CONFIGURATION ============
 ; Edit the variables below to customize the script
@@ -37,10 +39,11 @@ DEACTIVATION_SOUND := ""      ; Example: "C:\Windows\Media\Windows Balloon.wav"
 ; Each layer has: Enabled, Character, Size, Color, X-Offset, Y-Offset, Bold
 ; Note: Larger sizes may need negative Y offsets to appear centered
 
-; Дополнительные клавиши движения (помимо WASD)
-MOVEMENT_KEYS := ["w"]  ; Добавьте нужные, если используете
+; Extra movement keys for auto-hide logic (in addition to WASD if you use them)
+MOVEMENT_KEYS := ["w"]        ; Add any extra keys you use for movement
 
-INTERACT_KEY := "MButton4"  ; MouseButton4 (первая боковая)
+; Not used directly in this version, kept for reference
+INTERACT_KEY := "MButton4"    ; MouseButton4 (first side button)
 
 ; ======== PVP TARGETING PROFILE ========
 ; 1 = enable PvP-style mouse buttons (no auto-retarget on click),
@@ -145,7 +148,7 @@ UpdateReticleVisibility() {
     
     isMoving := false
     for key in MOVEMENT_KEYS {
-        if GetKeyState(key, "P") {  ; "P" — физическое нажатие (игнорирует remap)
+        if GetKeyState(key, "P") {  ; "P" = physical key state (ignores remaps)
             isMoving := true
             break
         }
@@ -164,12 +167,12 @@ ShowReticle() {
         CreateReticle()
     }
     UpdateReticleVisibility()
-    SetTimer(UpdateReticleVisibility, 50)  ; Проверка 20 раз/сек — плавно и не нагружает CPU
+    SetTimer(UpdateReticleVisibility, 50)  ; Check movement state 20 times per second – smooth and lightweight
 }
 
 HideReticle() {
     global reticleGui
-    SetTimer(UpdateReticleVisibility, 0)  ; Останавливаем таймер
+    SetTimer(UpdateReticleVisibility, 0)  ; Stop the visibility timer
     if (reticleGui) {
         reticleGui.Hide()
     }
@@ -220,15 +223,15 @@ CheckSWTOR() {
     actionMode := !actionMode
 
     if actionMode {
-        ; Координаты центра экрана
+        ; Screen center coordinates
         screenCenterX := A_ScreenWidth  // 2
         screenCenterY := A_ScreenHeight // 2
 
-        ; Те же расчёты, что и для GUI ретикула (40x40)
+        ; Same placement as in CreateReticle() (40x40 GUI)
         reticleX := screenCenterX - 20 + RETICLE_X_OFFSET
         reticleY := screenCenterY - 90 + RETICLE_Y_OFFSET
 
-        ; Центр прямоугольника ретикула
+        ; Center of the reticle rectangle
         mouseX := reticleX + 20
         mouseY := reticleY + 20
 
