@@ -42,8 +42,17 @@ DEACTIVATION_SOUND := ""      ; Example: "C:\Windows\Media\Windows Balloon.wav"
 ; Extra movement keys for auto-hide logic (in addition to WASD if you use them)
 MOVEMENT_KEYS := ["w"]        ; Add any extra keys you use for movement
 
-; Not used directly in this version, kept for reference
-INTERACT_KEY := "MButton4"    ; MouseButton4 (first side button)
+; ========== MOUSE BUTTON SETUP ==========
+; AutoHotkey mouse button names:
+; MButton  = middle mouse button / wheel click 
+; XButton1 = first side button / 4th mouse button
+; XButton2 = second side button / 5th mouse button
+;
+; Change this to choose which mouse button triggers interaction in action mode.
+; Examples: "MButton", "XButton1", "XButton2"
+;
+; Change this line only if you want a different interact button.
+INTERACT_KEY := "MButton"   ; examples: "MButton", "XButton1", "XButton2", "f" etc.
 
 ; ======== PVP TARGETING PROFILE ========
 ; 1 = enable PvP-style mouse buttons (no auto-retarget on click),
@@ -247,25 +256,16 @@ CheckSWTOR() {
     }
 }
 
-#HotIf actionMode && WinActive("ahk_exe swtor.exe") && PVP_MODE
-
-; ======== PVP: COMBAT MOUSE BUTTONS ONLY ========
-
-; In PvP we do NOT auto-retarget on click.
-; LMB/RMB simply fire abilities on your current target.
-; Targeting (Tab, Ctrl+Tab, Shift+Tab, mouse buttons) is handled directly by SWTOR.
-
-LButton:: {
-    Send PRIMARY_ATTACK   ; left mouse = main attack
+; ========== DYNAMIC HOTKEY REGISTRATION ==========
+RegisterHotkeys() {
+    global INTERACT_KEY
+    ; Bind the selected mouse button (MButton / XButton1 / XButton2)
+    ; to the interaction handler.
+    Hotkey(INTERACT_KEY, InteractAction)
 }
 
-RButton:: {
-    Send SECONDARY_ATTACK ; right mouse = secondary attack
-}
-
-; Interact (side mouse button) and then stay in normal mouse mode
-; Aim crosshair at NPC/object, press MButton to interact and exit action mode.
-MButton:: {
+; Aim crosshair at NPC/object, press INTERACT_KEY to interact and exit action mode.
+InteractAction(*) {
     ; 1) Temporarily release held right mouse button
     Send "{RButton up}"
     Sleep 30
@@ -276,8 +276,21 @@ MButton:: {
     ; 3) Exit action mode (turn off crosshair, release RMB, play sound)
     Sleep 30
     DisableActionMode()
+}
 
-    return
+; Register mouse interaction hotkey once at startup
+RegisterHotkeys()
+
+#HotIf actionMode && WinActive("ahk_exe swtor.exe") && PVP_MODE
+
+; ======== PVP: COMBAT MOUSE BUTTONS ONLY ========
+
+LButton:: {
+    Send PRIMARY_ATTACK   ; left mouse = main attack
+}
+
+RButton:: {
+    Send SECONDARY_ATTACK ; right mouse = secondary attack
 }
 
 #HotIf  ; reset context for the other hotkeys
