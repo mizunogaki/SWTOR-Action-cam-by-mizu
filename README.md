@@ -75,8 +75,9 @@ The script does not override these — it only manages camera, crosshair, and in
 3. Adjust the configuration section at the top of the script:
    - Keybinds for primary/secondary attacks.  
    - Crosshair appearance (font, color, offsets).  
-   - Movement keys for auto‑hide logic.  
-4. Optional: download and apply the **“SWTOR Action Keybinds”** and **“SWTOR Action Layout”** optional files from this page.  
+   - Movement keys for auto‑hide crosshair logic.
+   - Interact key for interaction with NPC/objects.  
+4. Optional: download and apply the **“SWTOR Action Keybinds”** and **“SWTOR Layout 1080p”** optional files from this page.  
 5. Run the `.ahk` script (ideally as Admin) and then launch SWTOR.  
 6. In‑game, press **Alt** to activate action camera mode.
 
