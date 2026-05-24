@@ -12,7 +12,6 @@ CoordMode("Mouse", "Screen")
 SWTOR_EXE := "swtor.exe"      ; Game executable name - don't change unless needed
 
 ; Combat keybinds - change these to match your SWTOR keybinds
-TARGET_KEY := "{NumpadSub}"   ; Key that targets the center enemy
 PRIMARY_ATTACK := "9"         ; Your main attack ability
 SECONDARY_ATTACK := "0"       ; Your secondary attack ability
 
