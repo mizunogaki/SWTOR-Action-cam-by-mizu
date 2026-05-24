@@ -1,10 +1,10 @@
 # Amor’s SWTOR Action Camera – Enhanced AHK Version (AutoHotkey v2)
 
 Based on **“Amor's Extensive SWTOR Action cam overhaul”**, this is an enhanced AutoHotkey script variant with a custom crosshair, movement hide, and an improved interaction flow.  
-Original mod and full description: [Amor's Extensive SWTOR Action cam overhaul](https://www.nexusmods.com/starwarstheoldrepublic/mods/32) [web:125].
+Original mod and full description: [Amor's Extensive SWTOR Action cam overhaul](https://www.nexusmods.com/starwarstheoldrepublic/mods/32) .
 
 My version keeps all original features and adds several quality‑of‑life improvements for both PvE and PvP.  
-With this script and Amor’s action cam setup, SWTOR’s gameplay starts to feel somewhat similar to playing **Guild Wars 2 with Action Camera enabled**: you aim with the crosshair, move and fight in mouselook, and interact directly with what’s under the reticle instead of constantly tab‑targeting [web:154].
+With this script and Amor’s action cam setup, SWTOR’s gameplay starts to feel somewhat similar to playing **Guild Wars 2 with Action Camera enabled**: you aim with the crosshair, move and fight in mouselook, and interact directly with what’s under the reticle instead of constantly tab‑targeting.
 
 ---
 
@@ -38,7 +38,7 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
   - Pressing `Esc`:
     - cleanly disables action mode (if active),  
     - then sends `Esc` to the game (close UI, back out of menus, etc.).  
-  - Implemented with `$Esc` to avoid the classic `71 hotkeys have been received` warning from AutoHotkey [web:84][web:98].
+  - Implemented with `$Esc` to avoid the classic `71 hotkeys have been received` warning from AutoHotkey.
 
 ---
 
