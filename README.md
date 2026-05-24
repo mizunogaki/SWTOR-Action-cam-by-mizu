@@ -85,7 +85,7 @@ The script does not override these — it only manages camera, crosshair, and in
 ## Recommended optional files
 
 - **"SWTOR Action Keybinds"**  
-- **"SWTOR Action Layout"**
+- **"SWTOR Layout 1080p"**
 
 These optional files:
 
