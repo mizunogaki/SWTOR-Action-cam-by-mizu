@@ -24,16 +24,10 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
   - While moving forward, the crosshair is temporarily hidden to avoid clutter.  
   - When you stop, the crosshair reappears.
 
-- **Middle mouse interact + auto exit to cursor mode (MButton)**  
-  - Aim the crosshair at an NPC, door, console, or any interactable.  
-  - Press **MButton** (mouse wheel click):  
-    - The script temporarily releases RMB,  
-    - performs a normal right‑click at the crosshair position,  
-    - then automatically disables action mode:
-      - releases RMB,  
-      - hides the crosshair,  
-      - returns you to normal mouse cursor mode.  
-  - Result: one press on MButton = start dialogue / interact AND immediately be in UI/cursor mode.
+- **Configurable interact + auto exit to cursor mode (default: MButton)**
+  - Aim the crosshair at an NPC, door, console, or any interactable.
+  - By default, press MButton (mouse wheel click) — or any mouse button you set in INTERACT_KEY in the script config:
+  - The script temporarily releases RMB, performs a normal right‑click at the crosshair position, then automatically disables action mode: releases RMB, hides the crosshair, and returns you to normal mouse cursor mode. Result: one press on your interact button = start dialogue / interact AND immediately be in UI/cursor mode.
 
 - **PvE‑ and PvP‑friendly mouse buttons**  
   - In action mode, **Left/Right Mouse** simply fire your primary/secondary abilities on the **current target**.  
@@ -76,21 +70,19 @@ The script does not override these — it only manages camera, crosshair, and in
 
 ## Installation
 
-1. Install **AutoHotkey v2** from the official website.  
-2. Download the original script from the Nexus page and replace it with this modified version (or drop this file next to it).  
+1. Install **AutoHotkey v2** from the official website / Microsoft Store: https://apps.microsoft.com/detail/9plqfdg8hh9d?hl=en-US&gl=en
+2. Download the script from this page.  
 3. Adjust the configuration section at the top of the script:
    - Keybinds for primary/secondary attacks.  
    - Crosshair appearance (font, color, offsets).  
    - Movement keys for auto‑hide logic.  
-4. Optional: download and apply the **“SWTOR Action Keybinds”** and **“SWTOR Action Layout”** optional files from Amor’s mod page.  
+4. Optional: download and apply the **“SWTOR Action Keybinds”** and **“SWTOR Action Layout”** optional files from this page.  
 5. Run the `.ahk` script (ideally as Admin) and then launch SWTOR.  
 6. In‑game, press **Alt** to activate action camera mode.
 
 ---
 
 ## Recommended optional files
-
-This edited script is designed to work well with the advanced version of Amor’s setup, so I highly recommend installing the following optional files from the original mod page [web:125]:
 
 - **"SWTOR Action Keybinds"**  
 - **"SWTOR Action Layout"**
