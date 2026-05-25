@@ -31,7 +31,7 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
   - The script temporarily releases RMB, performs a normal right‑click at the crosshair position, then automatically disables action mode: releases RMB, hides the crosshair, and returns you to normal mouse cursor mode. Result: one press on your interact button = start dialogue / interact AND immediately be in UI/cursor mode.
 
 - **PvE‑ and PvP‑friendly mouse buttons**  
-  - In action mode, **Left/Right Mouse** simply fire your primary/secondary abilities on the **current target**.  
+  - In action mode, **Left and Right Mouse** buttons fire your primary and secondary abilities on the **current target**. These are bound in SWTOR to 9 and 0, respectively.
   - The script does not auto‑retarget in PvP; targeting (Tab, Shift+Tab, XButton1/XButton2, etc.) is handled by SWTOR keybinds.  
   - This makes the script safe and predictable for both PvE and PvP play.
 
@@ -54,6 +54,7 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
 - **Right Mouse Button** – Secondary attack (while in action mode).  
 - **MButton (middle mouse button)** – Interact with whatever is under the crosshair and switch to normal cursor mode.  
 - **Esc** – Exit action mode (if active) and send Esc to SWTOR (close UI, back out of menus, etc.).
+- **Shift and Ctrl** - Utilities for combat skills.
 
 You can freely configure additional targeting in SWTOR itself, for example:
 
