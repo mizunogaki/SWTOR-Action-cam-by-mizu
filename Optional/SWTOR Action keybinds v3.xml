@@ -1,0 +1,1191 @@
+<Keybindings Version="1">
+	<KeybindingGroup Group="2">
+		<Keybinding ID="128665629273358042" Name="TargetMarkerGreenSaber">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="147630519095961715" Name="Quickslot12">
+			<Key>1496</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="147631618607589926" Name="Quickslot11">
+			<Key>425</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="147632718119218137" Name="Quickslot10">
+			<Key>417</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="224477920539912198" Name="TargetNearestEnemy">
+			<Key>73</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="560906885024041571" Name="CombatLogPageUp">
+			<Key>268</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="561125765205203818" Name="TargetCompanion">
+			<Key>897</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="562842860083439888" Name="TargetMarkerGoldStar">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="924732771188210354" Name="SelfTargetOverride">
+			<Key>288</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="1644331594687936198" Name="QuickslotPreviousPage">
+			<Key>321</Key>
+			<Key>113</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="1880643525987138671" Name="ToggleDisciplineWindow">
+			<Key>600</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="1956363952036230538" Name="ToggleCartelMarketWindow">
+			<Key>620</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2317162748180414871" Name="TogglePackExplorerWindow">
+			<Key>641</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2765467438761686387" Name="RightQuickslot12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2765468538273314598" Name="RightQuickslot11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2765469637784942809" Name="RightQuickslot10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2869228668180236348" Name="CycleTargetFriend">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2913882255985132910" Name="ToggleHangar">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="3003705135635781568" Name="Cover">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="3251663522123779302" Name="MountFlourish">
+			<Key>724</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="3598547338023279731" Name="ToggleChatWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="3741597713609827544" Name="CycleTargetEnemy">
+			<Key>116</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4101628887985247964" Name="ToggleAllianceWindow">
+			<Key>624</Key>
+			<Key>1752</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4208961396493621777" Name="MaxZoomIn">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4336243315098573926" Name="TargetMarkerYellowReticle">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4357701839487633699" Name="Quickslot5_12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4357702938999261910" Name="Quickslot5_11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4357704038510890121" Name="Quickslot5_10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4389290610557767332" Name="CoverFire">
+			<Key>460</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4431069952101818774" Name="CombatLogPageDown">
+			<Key>276</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4450351066400767331" Name="CompanionQuickslot12">
+			<Key>1500</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4450352165912395542" Name="CompanionQuickslot11">
+			<Key>1516</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4450353265424023753" Name="CompanionQuickslot10">
+			<Key>388</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4526367895860904610" Name="QuickslotNextPage">
+			<Key>305</Key>
+			<Key>121</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4617558968332151447" Name="ToggleQuickslotLock">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4876860217083107382" Name="SwapFocusAndPrimaryTarget">
+			<Key>562</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4884797649112276646" Name="ZoomOut">
+			<Key>120</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4946821807487298547" Name="AssistFocusTarget">
+			<Key>564</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5015503043582381565" Name="ToggleCombatLog">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5236481665855684571" Name="ToggleEmoteWindow">
+			<Key>554</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5304062166407956729" Name="TargetMarkerOrangeBlaster">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5539547466645108274" Name="TargetSelf">
+			<Key>896</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5717664738734732833" Name="ToggleWeapon">
+			<Key>720</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756023658946879091" Name="Quickslot1">
+			<Key>392</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756024758458507302" Name="Quickslot2">
+			<Key>400</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756025857970135513" Name="Quickslot3">
+			<Key>408</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756026957481763724" Name="Quickslot4">
+			<Key>416</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756028056993391935" Name="Quickslot5">
+			<Key>424</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756029156505020146" Name="Quickslot6">
+			<Key>432</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756030256016648357" Name="Quickslot7">
+			<Key>393</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756031355528276568" Name="Quickslot8">
+			<Key>401</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5756032455039904779" Name="Quickslot9">
+			<Key>409</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="5963864158113499580" Name="MinimapZoomIn">
+			<Key>856</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6012328812671772788" Name="LeftQuickslot12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6012331011695029210" Name="LeftQuickslot10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6012332111206657421" Name="LeftQuickslot11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314351350311666403" Name="Quickslot5_1">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314352449823294614" Name="Quickslot5_2">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314353549334922825" Name="Quickslot5_3">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314354648846551036" Name="Quickslot5_4">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314355748358179247" Name="Quickslot5_5">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314356847869807458" Name="Quickslot5_6">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314357947381435669" Name="Quickslot5_7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314359046893063880" Name="Quickslot5_8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6314360146404692091" Name="Quickslot5_9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6328979313956515907" Name="ToggleWorldMap">
+			<Key>616</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6368433966484513830" Name="ToggleWorldMapFading">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6402329076187468335" Name="ToggleTutorialWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6450671952109378677" Name="ToggleGalaxyMapWindow">
+			<Key>617</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6459923766230464766" Name="ToggleSocialWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477670512380943779" Name="CompanionQuickslot1">
+			<Key>396</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477671611892571990" Name="CompanionQuickslot2">
+			<Key>404</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477672711404200201" Name="CompanionQuickslot3">
+			<Key>412</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477673810915828412" Name="CompanionQuickslot4">
+			<Key>420</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477674910427456623" Name="CompanionQuickslot5">
+			<Key>428</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477676009939084834" Name="CompanionQuickslot6">
+			<Key>436</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477677109450713045" Name="CompanionQuickslot7">
+			<Key>444</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477678208962341256" Name="CompanionQuickslot8">
+			<Key>452</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6477679308473969467" Name="CompanionQuickslot9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6617079856767471265" Name="StartChat">
+			<Key>104</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6700264938275229528" Name="TemporaryQuickslot12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6700267137298485950" Name="TemporaryQuickslot10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6700268236810114161" Name="TemporaryQuickslot11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6793289336778477855" Name="ToggleInventory">
+			<Key>528</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840901971358448448" Name="Quickslot6_7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840903070870076659" Name="Quickslot6_6">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840904170381704870" Name="Quickslot6_5">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840905269893333081" Name="Quickslot6_4">
+			<Key>257</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840906369404961292" Name="Quickslot6_3">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840907468916589503" Name="Quickslot6_2">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840908568428217714" Name="Quickslot6_1">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840917364521243402" Name="Quickslot6_9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6840918464032871613" Name="Quickslot6_8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6874430585159586476" Name="BottomCenterQuickslot11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6874431684671214687" Name="BottomCenterQuickslot10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6874433883694471109" Name="BottomCenterQuickslot12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882027368297280760" Name="QuickslotPage3">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882028467808908971" Name="QuickslotPage2">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882029567320537182" Name="QuickslotPage1">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882031766343793604" Name="QuickslotPage7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882032865855421815" Name="QuickslotPage6">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6882035064878678237" Name="QuickslotPage4">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7088505467792384284" Name="ChatRewhisper">
+			<Key>657</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7187876883335701498" Name="ToggleCollectionsWindow">
+			<Key>540</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7197997053333408306" Name="MaxZoomOut">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7528233805536947136" Name="Quickslot6_12">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7528236004560203558" Name="Quickslot6_10">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7528237104071831769" Name="Quickslot6_11">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7708203091844067960" Name="ToggleCodexWindow">
+			<Key>609</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8020595436627105092" Name="Backward">
+			<Key>664</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8086748724737377544" Name="MasterVolumeUp">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8335840943987261711" Name="StartChatCmd">
+			<Key>1528</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8360812614045624869" Name="Right">
+			<Key>544</Key>
+			<Key>312</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8472492184748893911" Name="CycleTargetFriendBack">
+			<Key>77</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8618532279242421353" Name="MinimapZoomOut">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8701330254949910217" Name="AssistPrimaryTarget">
+			<Key>674</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8835433725639805348" Name="ToggleActivitiesWindow">
+			<Key>572</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="9249147088534913912" Name="ToggleStrongholdEditMode">
+			<Key>556</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="9674657250242390676" Name="TargetMarkerRedFlame">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="9853180428585718374" Name="TargetNearestFriend">
+			<Key>76</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10169383542180779613" Name="ZoomIn">
+			<Key>112</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10362665261710539486" Name="ToggleHideShowUI">
+			<Key>984</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10553400005680693771" Name="TargetMarkerPurpleGear">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10651359742192853351" Name="RotateLeft">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10945091908804348255" Name="Sit">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11158165001986343822" Name="ToggleCrewSkillsWindow">
+			<Key>584</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11219828917057743397" Name="TogglePreferencesWindow">
+			<Key>644</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11362391730265659037" Name="MasterVolumeDown">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11423612109957578610" Name="ToggleAbilityPage">
+			<Key>640</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11459770659611675264" Name="ToggleHudMap">
+			<Key>688</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="11485295028487609805" Name="ChatPageUp">
+			<Key>264</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12318591461129346497" Name="TargetMarkerCyanLightning">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12354238949215511516" Name="ToggleGuildWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12484600393675513967" Name="AutoRun">
+			<Key>1760</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517358938158079347" Name="RightQuickslot1">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517360037669707558" Name="RightQuickslot2">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517361137181335769" Name="RightQuickslot3">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517362236692963980" Name="RightQuickslot4">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517363336204592191" Name="RightQuickslot5">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517364435716220402" Name="RightQuickslot6">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517365535227848613" Name="RightQuickslot7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517366634739476824" Name="RightQuickslot8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12517367734251105035" Name="RightQuickslot9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12687588113241837355" Name="TargetGroupCompanion2">
+			<Key>913</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12687589212753465566" Name="TargetGroupCompanion1">
+			<Key>905</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12792039889013776421" Name="ToggleCompanionExtendedBar">
+			<Key>1536</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12829292512635389602" Name="TakeScreenshot">
+			<Key>352</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="13547137468153118543" Name="ToggleEpisodicLauncherWindow">
+			<Key>553</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="13562996776508296560" Name="Left">
+			<Key>520</Key>
+			<Key>296</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="13759038011639859075" Name="CycleTargetEnemyBack">
+			<Key>124</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14113643904735091432" Name="TargetGroupMember1">
+			<Key>904</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14113646103758347854" Name="TargetGroupMember3">
+			<Key>920</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14113647203269976065" Name="TargetGroupMember2">
+			<Key>912</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14113649402293232487" Name="TargetGroupMember4">
+			<Key>928</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119742007134276066" Name="TemporaryQuickslot9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119743106645904277" Name="TemporaryQuickslot8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119744206157532488" Name="TemporaryQuickslot7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119745305669160699" Name="TemporaryQuickslot6">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119746405180788910" Name="TemporaryQuickslot5">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119747504692417121" Name="TemporaryQuickslot4">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119748604204045332" Name="TemporaryQuickslot3">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119749703715673543" Name="TemporaryQuickslot2">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14119750803227301754" Name="TemporaryQuickslot1">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14248487724098578199" Name="ToggleWarzoneWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14481850789129039556" Name="ChatBottom">
+			<Key>273</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14946730188846853200" Name="Follow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14959839381467298459" Name="ToggleStrongholdWindow">
+			<Key>680</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14970144204161435269" Name="TargetCenterScreen">
+			<Key>72</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254333024462661110" Name="LeftQuickslot9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254334123974289321" Name="LeftQuickslot8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254339621532430376" Name="LeftQuickslot3">
+			<Key>656</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254340721044058587" Name="LeftQuickslot2">
+			<Key>552</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254341820555686798" Name="LeftQuickslot1">
+			<Key>648</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254344019578943220" Name="LeftQuickslot7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254345119090571431" Name="LeftQuickslot6">
+			<Key>672</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254346218602199642" Name="LeftQuickslot5">
+			<Key>568</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15254347318113827853" Name="LeftQuickslot4">
+			<Key>560</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15314965569980319826" Name="CombatLogBottom">
+			<Key>277</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15585587829005646555" Name="AutoForward">
+			<Key>1152</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15608096365139078594" Name="ToggleLegacyWindow">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15889899359972850522" Name="Forward">
+			<Key>696</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16004386294736082838" Name="FocusTargetOverride">
+			<Key>280</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16067912832178652022" Name="ToggleFriendsWindow">
+			<Key>632</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16081356224657723027" Name="ToggleCharacterSheet">
+			<Key>536</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16379283041115976975" Name="TargetMarkerBlueShield">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16658352123103346992" Name="ToggleCustomerSupportWindow">
+			<Key>1532</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16875375364905024325" Name="ToggleMissionLog">
+			<Key>608</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16969965914349272332" Name="ChatPageDown">
+			<Key>272</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17100020466979967517" Name="ChatReply">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17466061095088466452" Name="ToggleSound">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17542918548114091768" Name="RotateRight">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769365385206335664" Name="BottomCenterQuickslot6">
+			<Key>40</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769366484717963875" Name="BottomCenterQuickslot7">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769367584229592086" Name="BottomCenterQuickslot4">
+			<Key>320</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769368683741220297" Name="BottomCenterQuickslot5">
+			<Key>384</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769369783252848508" Name="BottomCenterQuickslot2">
+			<Key>456</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769370882764476719" Name="BottomCenterQuickslot3">
+			<Key>48</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769373081787733141" Name="BottomCenterQuickslot1">
+			<Key>304</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769380778369130618" Name="BottomCenterQuickslot8">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17769381877880758829" Name="BottomCenterQuickslot9">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="18209521937484963623" Name="ShowCover">
+			<Key>0</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="18388047647724105933" Name="Jump">
+			<Key>256</Key>
+			<Key>768</Key>
+			<Key>0</Key>
+		</Keybinding>
+	</KeybindingGroup>
+	<KeybindingGroup Group="3">
+		<Keybinding ID="253454160987634077" Name="QuickLookRight_StarFighter">
+			<Key>816</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2058127449199704846" Name="Up_StarFighter">
+			<Key>696</Key>
+			<Key>304</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2208737955912033452" Name="StrafeDown_StarFighter">
+			<Key>665</Key>
+			<Key>324</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="2643318074604277391" Name="PowerPreset2_StarFighter">
+			<Key>896</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="3036306655635946897" Name="RotateLeft_StarFighter">
+			<Key>520</Key>
+			<Key>296</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4269160675752065098" Name="PowerPreset1_StarFighter">
+			<Key>920</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="4309613754320980639" Name="Down_StarFighter">
+			<Key>664</Key>
+			<Key>320</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6277763117990543603" Name="Quickslot3_StarFighter">
+			<Key>408</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="6998554379342712413" Name="PowerPreset4_StarFighter">
+			<Key>912</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="7408032267617610008" Name="PowerPreset3_StarFighter">
+			<Key>904</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8542638235427981782" Name="CycleTargetEnemy_StarFighter">
+			<Key>656</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8609222283274015539" Name="AutoRoll_StarFighter">
+			<Key>688</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8825520416054502854" Name="Freelook_StarFighter">
+			<Key>560</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="8909919628063821034" Name="Quickslot4_StarFighter">
+			<Key>416</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10298925862251715375" Name="QuickLookForwardLeft_StarFighter">
+			<Key>824</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10569534018992909421" Name="StrafeUp_StarFighter">
+			<Key>697</Key>
+			<Key>308</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10625556764993075250" Name="StrafeRight_StarFighter">
+			<Key>545</Key>
+			<Key>316</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="10709383162594785113" Name="ToggleFFMouseMode_StarFighter">
+			<Key>721</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12384658426326586500" Name="QuickLookLeft_StarFighter">
+			<Key>800</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="12475323470253222460" Name="Quickslot2_StarFighter">
+			<Key>400</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="13647319816747869625" Name="SpaceCamPadlockview_StarFighter">
+			<Key>536</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="13883515913605053061" Name="Afterburner_StarFighter">
+			<Key>256</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14177175153633085109" Name="QuickLookBackwards_StarFighter">
+			<Key>784</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14601650111210853613" Name="QuickLookDown_StarFighter">
+			<Key>808</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="14880531468051898870" Name="RotateRight_StarFighter">
+			<Key>544</Key>
+			<Key>312</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15262368408425978343" Name="SelectTargetUnderMouse_StarFighter">
+			<Key>552</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15841647332878433417" Name="QuickLookBackwardsRight_StarFighter">
+			<Key>792</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15896856027649641469" Name="Quickslot1_StarFighter">
+			<Key>392</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="15903452384177628196" Name="QuickLookForwardRight_StarFighter">
+			<Key>840</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16425991286126834248" Name="QuickLookBackwardsLeft_StarFighter">
+			<Key>776</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16932544483451174344" Name="QuickLookUp_StarFighter">
+			<Key>832</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="16938328947574754837" Name="StrafeLeft_StarFighter">
+			<Key>521</Key>
+			<Key>300</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17807149140628360341" Name="CutThrottle_StarFighter">
+			<Key>704</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="17937103674162163700" Name="CycleTargetNearest_StarFighter">
+			<Key>72</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+		<Keybinding ID="18392059863840672894" Name="HoldFFMouseMode_StarFighter">
+			<Key>720</Key>
+			<Key>0</Key>
+			<Key>0</Key>
+		</Keybinding>
+	</KeybindingGroup>
+</Keybindings>
