@@ -15,15 +15,15 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
   - Holds the right mouse button for you.  
   - Shows a configurable crosshair overlay and centers the mouse cursor under it.
 
-- **Crosshair aligned to mouse cursor**
-  - When you enter action mode, the script moves the hardware mouse cursor exactly under the crosshair.
-  - A normal right‑click by itself will not trigger interaction in action mode.
-  - Instead, use the configured interact button from the script (default: MButton via INTERACT_KEY) – it performs a right‑click at the crosshair position and then exits back to normal cursor mode.
-
 - **Auto‑hide crosshair while moving**  
   - A small timer checks your movement keys (e.g. `W`).  
   - While moving forward, the crosshair is temporarily hidden to avoid clutter.  
   - When you stop, the crosshair reappears.
+ 
+- **Crosshair aligned to mouse cursor**
+  - When you enter action mode, the script moves the hardware mouse cursor exactly under the crosshair.
+  - A normal right‑click by itself will not trigger interaction in action mode.
+  - Instead, use the configured interact button from the script (default: MButton via INTERACT_KEY) – it performs a right‑click at the crosshair position and then exits back to normal cursor mode.
 
 - **Configurable interact + auto exit to cursor mode (default: MButton)**
   - Aim the crosshair at an NPC, door, console, or any interactable.
