@@ -40,8 +40,12 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
     - cleanly disables action mode (if active),  
     - then sends `Esc` to the game (close UI, back out of menus, etc.).  
   - Implemented with `$Esc` to avoid the classic `71 hotkeys have been received` warning from AutoHotkey.
-
----
+ 
+- **Utility hotkeys (Shift / Ctrl)**
+  - A solo press of Shift sends the keybind assigned to Up Arrow.
+  - A solo press of Ctrl sends the keybind assigned to Down Arrow.
+  - This allows easy access to combat abilities on very low-travel inputs.
+  - Shift+1 and Ctrl+1 still work normally, since the script only reacts when the modifier is pressed by itself.
 
 ## Controls (default)
 
