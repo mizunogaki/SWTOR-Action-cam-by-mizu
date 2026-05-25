@@ -73,7 +73,7 @@ The script does not override these — it only manages camera, crosshair, and in
 
 - **AutoHotkey v2** (this script is written for v2 syntax) [web:90].  
 - SWTOR running as `swtor.exe` (default executable; can be changed in the config).
-
+- Graphics: Fullscreen (Windowed).
 ---
 
 ## Installation
