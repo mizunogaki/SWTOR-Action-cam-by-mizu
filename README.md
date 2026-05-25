@@ -93,15 +93,15 @@ The script does not override these — it only manages camera, crosshair, and in
 
 ## Recommended optional files
 
-- **"SWTOR Action Keybinds"**  
-- **"SWTOR Layout 1080p"**
+- **"SWTOR Action Keybinds v2"**  
+- **"SWTOR Layout 1080p v2"**
 
 These optional files:
 
 - Apply the keybinds and UI layout that the script expects (advanced action camera profile).  
 - Match the attack, targeting, and interaction keys used by the AutoHotkey script.
 
-If you use different keybinds or layouts, you can still adapt the script, but with **"SWTOR Action Keybinds"** and **"SWTOR Action Layout"** installed, everything works almost out of the box with this enhanced version.
+If you use different keybinds or layouts, you can still adapt the script, but with **"SWTOR Action Keybinds v2"** and **"SWTOR Action Layout v2"** installed, everything works almost out of the box with this enhanced version.
 
 ---
 
