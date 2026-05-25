@@ -56,12 +56,14 @@ With this script and Amor’s action cam setup, SWTOR’s gameplay starts to fee
 - **Esc** – Exit action mode (if active) and send Esc to SWTOR (close UI, back out of menus, etc.).
 - **Shift and Ctrl** - Utilities for combat skills.
 
-You can freely configure additional targeting in SWTOR itself, for example:
+You can freely configure additional targeting in SWTOR itself. Here are my settings:
 
-- `Tab` – Target Center Screen Enemy.  
-- `Shift+Tab` – Target Previous Enemy.  
-- `Ctrl+Tab` – Target Nearest Friendly.  
-- `XButton1 / XButton2` – Next/Previous enemy target (set directly in SWTOR).
+- `Tab` – Target Center Screen Enemy (recommended).  
+- `Shift+Tab` – Target Nearest Enemy.  
+- `Ctrl+Tab` – Target Nearest Friendly.
+- `Ctrl+Mouse Wheel Up` – Target Next Enemy.
+- `Ctrl+Mouse Wheel Down` – Target Previous Enemy.
+- `XButton1 / XButton2` (side mouse buttons) – Action combat skills.
 
 The script does not override these — it only manages camera, crosshair, and interaction.
 
